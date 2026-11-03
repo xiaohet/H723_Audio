@@ -1,13 +1,36 @@
-/.metadata
-/.settings
-/Debug
-/logs
-/Startup
-.cproject
-.project
-.mxproject
-H723_Audio Debug.cfg
-H723_Audio Debug.launch
-H723_Audio.ioc
-STM32H723GTX_FLASH.ld
-STM32H723GTX_RAM.ld
+# Eclipse workspace state (not project configuration)
+/.metadata/
+
+# Generated CubeIDE build directories
+/Debug/
+/Release/
+
+# Compiler/linker outputs
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.hex
+*.bin
+*.a
+
+# Local diagnostic captures; put curated examples in docs/ if useful
+/logs/
+
+# Machine-specific IDE caches and view preferences
+/.settings/language.settings.xml
+/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs
+
+# OS/editor temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Keep Startup/, Drivers/, Inc/, Src/, *.ioc, *.ld,
+# .project, .cproject, .mxproject and shared project preferences.
