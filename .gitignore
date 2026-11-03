@@ -1,0 +1,12 @@
+/.metadata
+/.settings
+/Debug
+/logs
+/Startup
+.cproject
+.project
+.mxproject
+.cfg
+.launch
+.ioc
+.ld
