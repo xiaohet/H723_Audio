@@ -6,7 +6,8 @@
 .cproject
 .project
 .mxproject
-.cfg
-.launch
-.ioc
-.ld
+H723_Audio Debug.cfg
+H723_Audio Debug.launch
+H723_Audio.ioc
+STM32H723GTX_FLASH.ld
+STM32H723GTX_RAM.ld

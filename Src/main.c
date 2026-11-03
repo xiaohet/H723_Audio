@@ -227,20 +227,6 @@ int main(void)
       printf("OLED not detected at 0x3C\r\n");
   }
 
-  /* DAC test sine wave buffer */
-//  static uint32_t tone[480 * 2];
-//  for (uint32_t i = 0; i < 480; ++i)
-//  {
-//      float phase = 6.28318530718f * (float)(i % 48) / 48.0f;
-//
-//      /* Signed 24-bit PCM at 10% of full scale. */
-//      int32_t sample = (int32_t)(8388607.0f * 0.1f * sinf(phase));
-//      uint32_t packed = (uint32_t)sample & 0x00FFFFFFu;
-//
-//      tone[2 * i]     = packed;  /* Left */
-//      tone[2 * i + 1] = packed;  /* Right */
-//  }
-
   /* Separate aligned buffers live in RAM_D1 through the linker .bss section.
    * Prevent dirty CPU cache lines from overwriting incoming DMA data.
    */
